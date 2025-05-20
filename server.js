@@ -27,7 +27,6 @@ app.get("/", (req, res) => {
   res.send("Job Match API is running");
 });
 
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
